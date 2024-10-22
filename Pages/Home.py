@@ -14,25 +14,25 @@ def Home():
         with solara.Columns([2,  2], style={"padding": "40px", "background-color": "#F5F5DC"}):
             # First Info Card
             with solara.Card(style={"padding": "20px", "text-align": "center"}):
-                solara.Image("Images/LeafGuard_AI_Logo.png")
+                solara.Image("Images/Image_1.jpg")
                 solara.Title("Protect Your Orchard")
                 solara.Markdown("The comprehensive solution to monitor and manage orchard health...")
 
             # Second Info Card
             with solara.Card(style={"padding": "20px", "text-align": "center"}):
-                solara.Image("Images/LeafGuard_AI_Logo.png")
+                solara.Image("Images/Image_2.jpg")
                 solara.Title("Protect Your Cedar Yard")
                 solara.Markdown("Track and prevent diseases such as cedar rust from spreading...")
 
             # Third Info Card
             with solara.Card(style={"padding": "20px", "text-align": "center"}):
-                solara.Image("Images/LeafGuard_AI_Logo.png")
+                solara.Image("Images/Image_3.jpg")
                 solara.Title("Cedar Rust & Learn")
                 solara.Markdown("Gain insights into cedar rust and learn effective treatment...")
 
             # Fourth Info Card
             with solara.Card(style={"padding": "20px", "text-align": "center"}):
-                solara.Image("Images/LeafGuard_AI_Logo.png")
+                solara.Image("Images/Image_4.jpg")
                 solara.Title("Read Apple Scabs")
                 solara.Markdown("Identify apple scabs early with our precise AI detection system...")
 
