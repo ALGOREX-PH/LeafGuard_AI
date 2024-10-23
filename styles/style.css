@@ -1,0 +1,8 @@
+.v-app-bar {
+    background-color: #228B22 !important; /* Change this to your desired color */
+    color: white !important; /* Adjust text color if needed */
+}
+
+.v-toolbar__content {
+    color: white !important; /* Ensure the text remains visible */
+}

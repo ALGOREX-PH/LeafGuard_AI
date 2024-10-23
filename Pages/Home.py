@@ -8,33 +8,37 @@ def Home():
         solara.Markdown("The smart way to protect your orchard, understanding diseases over leaves on plants.")
         #with solara.Box(style={"margin-top": "20px"}):
         solara.Button("Get Started Now", style={"background-color": "#7CFC00", "color": "#FFFFFF", "padding": "10px 20px", "border": "none", "cursor": "pointer"})
-        solara.Button("Learn More", style={"background-color": "#228B22", "color": "#FFFFFF", "padding": "10px 20px", "border": "none", "margin-left": "10px", "cursor": "pointer"})
+        #solara.Button("Learn More", style={"background-color": "#228B22", "color": "#FFFFFF", "padding": "10px 20px", "border": "none", "margin-left": "10px", "cursor": "pointer"})
 
         # Information Section
         with solara.Columns([2,  2], style={"padding": "40px", "background-color": "#F5F5DC"}):
             # First Info Card
-            with solara.Card(style={"padding": "20px", "text-align": "center"}):
+            with solara.Card(style={"padding": "20px", "background-color" : "#7CFC00", "text-align": "center"}):
                 solara.Image("Images/Image_1.jpg")
-                solara.Title("Protect Your Orchard")
-                solara.Markdown("The comprehensive solution to monitor and manage orchard health...")
+                solara.Text("Protect Your Orchard", style = {"font-size" : "20px", "font-weight" : "bold"})
+                solara.Markdown("The comprehensive solution to manage orchard health...")
+                solara.Button("Learn More", style={"background-color": "#D2691E", "color": "white", "padding": "10px 20px", "border-radius": "5px"})
 
             # Second Info Card
-            with solara.Card(style={"padding": "20px", "text-align": "center"}):
+            with solara.Card(style={"padding": "20px", "background-color" : "#7CFC00", "text-align": "center"}):
                 solara.Image("Images/Image_2.jpg")
-                solara.Title("Protect Your Cedar Yard")
-                solara.Markdown("Track and prevent diseases such as cedar rust from spreading...")
+                solara.Text("Protect Your Cedar Yard", style = {"font-size" : "20px", "font-weight" : "bold"})
+                solara.Markdown("Track and prevent diseases such as black rot from spreading...")
+                solara.Button("Learn More", style={"background-color": "#D2691E", "color": "white", "padding": "10px 20px", "border-radius": "5px"})
 
             # Third Info Card
-            with solara.Card(style={"padding": "20px", "text-align": "center"}):
+            with solara.Card(style={"padding": "20px", "background-color" : "#7CFC00", "text-align": "center"}):
                 solara.Image("Images/Image_3.jpg")
-                solara.Title("Cedar Rust & Learn")
+                solara.Text("Cedar Rust & Learn", style = {"font-size" : "20px", "font-weight" : "bold"})
                 solara.Markdown("Gain insights into cedar rust and learn effective treatment...")
+                solara.Button("Learn More", style={"background-color": "#D2691E", "color": "white", "padding": "10px 20px", "border-radius": "5px"})
 
             # Fourth Info Card
-            with solara.Card(style={"padding": "20px", "text-align": "center"}):
+            with solara.Card(style={"padding": "20px", "background-color" : "#7CFC00", "text-align": "center"}):
                 solara.Image("Images/Image_4.jpg")
-                solara.Title("Read Apple Scabs")
+                solara.Text("Read Apple Scabs", style = {"font-size" : "20px", "font-weight" : "bold"})
                 solara.Markdown("Identify apple scabs early with our precise AI detection system...")
+                solara.Button("Learn More", style={"background-color": "#D2691E", "color": "white", "padding": "10px 20px", "border-radius": "5px"})
 
     #solara.Title("Introduction to LeafGuard AI")
     #solara.Text("LeafGuard AI is an advanced AI-driven model designed to enhance agricultural health monitoring by detecting common leaf diseases such as Black Rot, Cedar Rust, and Apple Scabs. Leveraging cutting-edge image recognition technology, LeafGuard AI analyzes leaf images to identify and classify these diseases with high accuracy, providing farmers and agricultural experts with a powerful tool to protect their crops.")
